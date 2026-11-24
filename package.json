@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Kalyanam Gold - Premium Interactive Wedding Invitation Template by A.C.P Invites",
   "scripts": {
-    "build": "echo 'Static build complete'",
+    "build": "node build.js",
     "dev": "node server.js",
     "serve": "node server.js"
   },
