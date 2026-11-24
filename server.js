@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 8080;
-const ROOT = path.resolve(__dirname);
+const ROOT = fs.existsSync(path.join(__dirname, 'public')) ? path.join(__dirname, 'public') : path.resolve(__dirname);
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',

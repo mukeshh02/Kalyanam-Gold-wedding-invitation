@@ -1,6 +1,10 @@
 {
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/((?!assets/|photogallery/|.*\\..*).*)",
+      "destination": "/index.html"
+    }
   ]
 }
