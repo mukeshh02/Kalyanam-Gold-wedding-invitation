@@ -1,11 +1,18 @@
 {
   "name": "kalyanam-gold",
   "version": "1.0.0",
-  "private": true,
   "description": "Kalyanam Gold - Premium Interactive Wedding Invitation Template by A.C.P Invites",
   "scripts": {
-    "start": "node local-server.js"
+    "build": "echo 'Static build complete'",
+    "dev": "node server.js",
+    "serve": "node server.js"
   },
+  "keywords": [
+    "kalyanam-gold",
+    "wedding-invitation",
+    "acp-invites",
+    "akashcamera"
+  ],
   "author": "A.C.P Invites (7000371321)",
   "license": "ISC"
 }
